@@ -42,6 +42,13 @@ at any time, which removes your record from it.
 If you turn on the daily reminder, CapSept schedules one local reminder a day, skipped when you have
 already studied, and two reminders before your exam. There is no push-notification server.
 
+## Apple Watch
+
+If you have CapSept on Apple Watch, your iPhone sends it the words due for review in the next day and a
+half, with their English meanings, over Apple's direct iPhone-to-Watch connection. The watch
+schedules its own local notifications, once an hour during the day, and sends your answers back to
+your iPhone the same way. Turn this off with **Words on Apple Watch** in Settings.
+
 ## Your choices
 
 In Settings you can export everything CapSept stores as a JSON file, and delete all your data,
