@@ -1,0 +1,25 @@
+name: Privacy concern
+description: Report a non-sensitive discrepancy between CapSept and its privacy policy.
+title: "[Privacy] "
+labels: [privacy-violation]
+body:
+  - type: markdown
+    attributes:
+      value: "This report is public. Use invented records and omit personal details, credentials and identifying screenshots. Use the private security link for vulnerabilities."
+  - type: input
+    id: versions
+    attributes:
+      label: App version, iOS version, and device
+      placeholder: "Include the version/build from your installed app if available."
+  - type: textarea
+    id: concern
+    attributes:
+      label: What happened, and what did you expect?
+      description: Link the relevant policy passage if possible.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce with invented data
+      description: Include only non-sensitive details; no recording or exported data is needed.

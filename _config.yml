@@ -1,0 +1,19 @@
+title: "CapSept Privacy policy"
+description: "Public, version-controlled privacy policy for CapSept, maintained by Ariel Tyson."
+url: "https://arieltyson.github.io"
+baseurl: "/CapSept-privacy"
+repository_url: "https://github.com/arieltyson/CapSept-privacy"
+markdown: kramdown
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - README.md
+  - LICENSE
+  - NOTICE.md
+  - SECURITY.md
+  - ACCESSIBILITY.md
+  - PRIVACY_POLICY.md
+  - DATA_MAPPING.md

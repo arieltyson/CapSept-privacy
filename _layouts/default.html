@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="{{ site.description | escape }}">
+  <title>{{ page.title | escape }} · CapSept</title>
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <style>
+    :root { color-scheme: light dark; --paper: #f7f8fa; --ink: #1c2333; --muted: #5a6577; --link: #c8352a; --line: #dde2ea; }
+    * { box-sizing: border-box; }
+    html { font: 112.5%/1.65 system-ui, -apple-system, sans-serif; }
+    body { margin: 0; color: var(--ink); background: var(--paper); overflow-wrap: anywhere; }
+    header, main, footer { max-width: 48rem; margin-inline: auto; padding: 1.25rem; }
+    header { padding-top: 2rem; border-bottom: 1px solid var(--line); }
+    header p { margin: 0; color: var(--muted); }
+    .brand { font-weight: 750; font-size: 1.25rem; letter-spacing: .02em; }
+    nav ul { display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; list-style: none; padding: 0; margin: .5rem 0 0; }
+    nav a { display: inline-flex; align-items: center; min-height: 44px; }
+    a { color: var(--link); text-underline-offset: .18em; }
+    a:hover { text-decoration-thickness: .15em; }
+    :focus-visible { outline: 3px solid currentColor; outline-offset: 4px; }
+    h1, h2, h3 { line-height: 1.2; text-wrap: balance; }
+    h1 { font-size: clamp(1.8rem, 6vw, 2.8rem); margin-block: 1.25rem; }
+    h2 { margin-top: 2rem; font-size: 1.35rem; }
+    li { margin-block: .6rem; }
+    code { font-size: .9em; }
+    footer { border-top: 1px solid var(--line); color: var(--muted); margin-top: 2rem; padding-bottom: 3rem; }
+    .skip { position: absolute; top: -10rem; left: 1rem; padding: .75rem; background: var(--paper); z-index: 1; }
+    .skip:focus { top: .5rem; }
+    @media (prefers-color-scheme: dark) { :root { --paper: #0e1a2b; --ink: #f3f5f8; --muted: #9aa8bd; --link: #ff7a6e; --line: #2a3b5c; } }
+    @media (prefers-contrast: more) { :root { --ink: #000; --muted: #000; --link: #9e2219; --line: #333; } }
+    @media (prefers-color-scheme: dark) and (prefers-contrast: more) { :root { --ink: #fff; --muted: #fff; --link: #ff9a90; --line: #ddd; } }
+    @media print { .skip, nav { display: none; } :root { --paper: #fff; --ink: #000; --muted: #000; --link: #000; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header>
+    <p class="brand">CapSept</p>
+    <p>Public policies &amp; accountability</p>
+    <nav aria-label="Policy navigation"><ul>
+      <li><a href="https://arieltyson.github.io/CapSept-privacy/">Privacy</a></li>
+      <li><a href="https://arieltyson.github.io/CapSept-privacy/data-mapping/">Data mapping</a></li>
+      <li><a href="https://arieltyson.github.io/CapSept-accessibility/">Accessibility</a></li>
+      <li><a href="https://arieltyson.github.io/CapSept-accessibility/known-issues/">Known issues</a></li>
+    </ul></nav>
+  </header>
+  <main id="main" tabindex="-1">{{ content }}</main>
+  <footer>
+    <p>Maintained by <a href="https://www.arieljtyson.com">Ariel Tyson</a>.</p>
+    <p><a href="{{ site.repository_url }}/blob/main/{{ page.source_file }}">Markdown source</a> · <a href="{{ site.repository_url }}/commits/main/{{ page.source_file }}">Version history</a> · <a href="{{ site.repository_url }}/issues/new/choose">Report a concern</a></p>
+    <p>© 2026 Ariel Tyson · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+  </footer>
+</body>
+</html>
