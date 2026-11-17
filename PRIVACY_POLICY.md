@@ -1,24 +1,24 @@
-# CapSept Privacy Policy
+# CanFra Privacy Policy
 
 **Effective and last reviewed: 7 November 2026**
 
-CapSept is developed by Ariel Tyson. It helps you prepare for the TEF Canada and TCF Canada French
+CanFra is developed by Ariel Tyson. It helps you prepare for the TEF Canada and TCF Canada French
 tests. This policy describes what the app does with your information.
 
 ## Your progress stays with you
 
-CapSept stores your exam choice and date, your answers, your writing and speaking attempts, their
+CanFra stores your exam choice and date, your answers, your writing and speaking attempts, their
 scores and your study days in a database inside the app on your iPhone. If you are signed in to
 iCloud, the system syncs that database through your own private iCloud database so it is backed up
 and available on your other devices. The developer cannot read your private iCloud data.
 
-The developer does not operate a server. CapSept has no account, advertising, analytics SDK,
+The developer does not operate a server. CanFra has no account, advertising, analytics SDK,
 third-party tracking SDK or developer-operated crash reporting. It does not sell your data, share
 it for advertising or use it to train models.
 
 ## Microphone and speech recognition
 
-CapSept asks for the microphone the first time you answer a speaking card or task. Your recording is
+CanFra asks for the microphone the first time you answer a speaking card or task. Your recording is
 transcribed on your iPhone with Apple's speech recognition; the first time, iOS may download the
 French speech model. Recordings are deleted after scoring unless you turn on **Keep recordings** in
 Settings. Kept recordings are stored with complete file protection and deleted after 30 days.
@@ -26,7 +26,7 @@ Transcripts are stored with your task attempts.
 
 ## Writing and speaking feedback
 
-On iPhones with Apple Intelligence, CapSept scores your writing and speaking with Apple's on-device
+On iPhones with Apple Intelligence, CanFra scores your writing and speaking with Apple's on-device
 language model. Your answer is processed on your iPhone and is not sent to the developer. On other
 iPhones you rate your own answer against a model answer.
 
@@ -39,19 +39,19 @@ at any time, which removes your record from it.
 
 ## Notifications
 
-If you turn on the daily reminder, CapSept schedules one local reminder a day, skipped when you have
+If you turn on the daily reminder, CanFra schedules one local reminder a day, skipped when you have
 already studied, and two reminders before your exam. There is no push-notification server.
 
 ## Apple Watch
 
-If you have CapSept on Apple Watch, your iPhone sends it the words due for review in the next day and a
+If you have CanFra on Apple Watch, your iPhone sends it the words due for review in the next day and a
 half, with their English meanings, over Apple's direct iPhone-to-Watch connection. The watch
 schedules its own local notifications, once an hour during the day, and sends your answers back to
 your iPhone the same way. Turn this off with **Words on Apple Watch** in Settings.
 
 ## Your choices
 
-In Settings you can export everything CapSept stores as a JSON file, and delete all your data,
+In Settings you can export everything CanFra stores as a JSON file, and delete all your data,
 which removes it from your iPhone and, through sync, from your iCloud. Deleting the app removes the
 on-device copy.
 

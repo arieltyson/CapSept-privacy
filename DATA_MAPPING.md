@@ -1,4 +1,4 @@
-# CapSept Data Mapping
+# CanFra Data Mapping
 
 Every kind of data the app creates, where it is stored and whether it leaves the device.
 This file matches the App Store privacy declaration: **Data Not Collected**.
